@@ -39,3 +39,7 @@ class Character:
 
     def __str__(self):
         return f"Name: {self.name} | Health: {self.health} | Attack: {self.attack} | Defense: {self.defense} | Level: {self.level} | XP: {self.xp}"
+    
+    def __repr__(self):
+        return self.__str__()
+    
